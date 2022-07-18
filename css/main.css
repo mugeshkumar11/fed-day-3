@@ -1,0 +1,23 @@
+.container {
+    width: 1300px;
+    margin: auto;
+    outline: solid 1px;
+
+}
+.flex-box{
+    display:flex;
+    justify-content:space-between;
+     height: 50px;
+    outline: solid 2px yellow;
+}
+.apple {
+    display:flex;
+    justify-content: baseline;
+    height: 300px;
+}
+.orange {
+    display: flex;
+    justify-content: space-between;
+     height: 200px;
+     
+}
