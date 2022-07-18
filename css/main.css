@@ -1,23 +1,70 @@
 .container {
     width: 1300px;
     margin: auto;
-    outline: solid 1px;
+    outline: solid 2px blue;
 
 }
 .flex-box{
     display:flex;
     justify-content:space-between;
      height: 50px;
-    outline: solid 2px yellow;
+
 }
 .apple {
     display:flex;
-    justify-content: baseline;
+    justify-content:center;
     height: 300px;
 }
 .orange {
     display: flex;
-    justify-content: space-between;
-     height: 200px;
-     
+    justify-content:space-around;
+     height: 200px; 
+     width: 70%;   
+    
+}
+.pineapple {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pineapple .grapes {
+    width:33.33%;
+    height: 200px;
+    outline: solid 1px red;
+}
+.mango {
+    display:flex;
+    justify-content:center;
+    height: 100px;
+}
+.watermelon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.watermelon .features{
+    width: 60%;
+    height:200px;
+    outline: solid 1px orange;
+}
+.stawberry {
+    display: flex;
+    flex-wrap: wrap;
+}
+.stawberry .lemon {
+    width:25%;
+    height: 200px;
+    outline: solid 1px orange;
+}
+.blackberry{
+    display:flex;
+    flex-wrap: wrap;
+}
+.blackberry .blueberry {
+    width:25%;
+    height: 100px;
+    outline: solid 1px green;
+}
+.guava{
+    display:flex;
+    justify-content: center;
+    height: 100px;
 }
