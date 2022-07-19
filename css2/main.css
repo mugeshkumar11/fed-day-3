@@ -1,0 +1,133 @@
+.container{
+    width: 1300px;
+    margin: auto;
+    outline: solid 2px brown;
+
+}
+.tiger-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.monkey-flex {
+    display:flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.lion-flex  {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.lion-flex .cheetah {
+    width: 25%;
+    outline: solid 1px blue;
+    height: 150px;
+}
+.dog-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+.dog-flex .fox {
+    width: 50%;
+    outline: solid 1px blue;
+    height: 250px;
+}
+.zeebra-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.zeebra-flex .deer {
+    width: 16.66%;
+    outline: solid 1px blue;
+    height: 60px;
+}
+.cow-flex {
+    display: flex;
+    height:200px;
+    justify-content: center;
+}
+.goat-flex {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.rabbit-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+.rabbit-flex .cat {
+    width:16.66%;
+    height: 200px;
+    outline: solid 1px blue;
+}
+.buffalo-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.buffalo-flex .rat {
+    width:33.33%;
+    height:200px;
+    outline: solid 1px blue;
+}
+.elephant-flex {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+.camal-flex {
+    display:flex;
+    flex-wrap: wrap;
+}
+.camal-flex .horse {
+    width: 33.3%;
+    height: 200px;
+    justify-content: space-evenly;
+    outline: solid 1px blue;
+}
+.wolf-flex {
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+.squirrel-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.squirrel-flex .panda{
+    width:25%;
+    height: 300px;
+    outline: solid 1px blue;
+}
+.mouse-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mouse-flex .gorilla {
+    width:33.33%;
+    height:200px;
+    outline: solid 1px blue;
+}
+.kangaroo-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kangaroo-flex .mole {
+    width:33.33%;
+    height:200px;
+    outline: solid 1px blue;
+}
+.owl-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.owl-flex .parrot {
+    width:25%;
+    height:150px;
+    outline: solid 1px blue;
+}
+.duck-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
