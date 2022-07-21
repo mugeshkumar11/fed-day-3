@@ -1,5 +1,30 @@
 .container {
-    width: 80%;
+    width: 1300px;
     margin: auto;
-    outline: solid 2px black;
+    outline: solid 2px rgb(100, 0, 67);
+}
+.header-flex {
+    display: flex;
+    height:60px;
+    justify-content: space-between;
+}
+.banner-flex {
+    display: flex;
+    height: 300px;
+    justify-content:center;
+
+}
+.gallery-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-flex .gallery-img {
+    width: 25%;
+    height: 200px;
+    outline: solid 1px brown;
+}
+.legal-flex {
+    display: flex;
+    height: 60px;
+    justify-content: center;
 }
